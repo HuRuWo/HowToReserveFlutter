@@ -34,3 +34,7 @@
 11.flutter dart 算法还原
 
 12.flutter 更多相关知识点 
+
+## 最后
+
+如果有帮助,各位手动点点start即可。有问题直接issue讨论或者gitchat联系我。

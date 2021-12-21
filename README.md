@@ -1,0 +1,34 @@
+## ReFlutterNote(逆向flutter笔记)
+
+### 前言
+
+鉴于目前越来越多软件采用flutter进行开发，导致逆向安全难度增大。
+所以在连续分析了一些颜色APP软件之后，我准备分享一些相关的逆向知识。做抛砖引玉之用。
+
+### 章节目录
+
+>所有内容都是以release版本为逆向对象，debug版本没啥看的。没有人会发布debug版本的软件到应用市场。
+
+1.flutter apk结构
+
+2.flutter 虚拟机架构
+
+3.flutter AOT 快照文件格式
+
+4.flutter SDK 引擎编译
+
+5.flutter SDK 引擎注入重打包
+
+6.flutter AOT快照解析
+
+7.flutter function code 定位
+
+8.flutter function code 修改
+
+9.flutter frida hook
+
+10.flutter frida xposed hook
+
+11.flutter dart 算法还原
+
+12.flutter 更多相关知识点 

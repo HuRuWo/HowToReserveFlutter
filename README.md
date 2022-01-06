@@ -11,9 +11,25 @@
 
 >年底业务繁忙，工程笔记慢速施工当中。
 
-#### [0.flutter 的基本开发](https://github.com/HuRuWo/ReFlutterNote/blob/main/000.md)
+#### [0.flutter 的基本开发](https://github.com/HuRuWo/ReFlutterNote/blob/main/note/000.md)
 
 #### 1.flutter apk结构
+
+在前面的基本开发过程中,我们得到了一个较为简单的flutter apk 文件。现在我们来将其解析分析里面包含的文件内容。
+
+
+```
+F:\flutter\bin\flutter.bat --no-color build apk
+Running Gradle task 'assembleRelease'...                          114.7s
+√  Built build\app\outputs\flutter-apk\app-release.apk (16.5MB).
+Process finished with exit code 0
+```
+
+整个apk大小挺恐怖的，我们之前只写了几行代码几个类居然有16.5MB的大小。
+
+![https://github.com/HuRuWo/ReFlutterNote/blob/main/pic/01.png]()
+
+
 
 #### 2.flutter 虚拟机架构
 

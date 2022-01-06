@@ -65,14 +65,16 @@ Process finished with exit code 0
 
 lib asset 两个文件夹里面，asset存放的就是相关的资源文件而lib里面就存放了我们要破解的flutter的代码。
 
-- libflutter.so 完整的dart虚拟机
+- libflutter.so 完整的flutter虚拟机
 
 - libapp.so     flutter程序代码对应的dart vm AOT 快照文件
 
 
-
-
 #### 2.flutter 虚拟机架构
+
+
+
+
 
 #### 3.flutter AOT 快照文件格式
 

@@ -27,8 +27,43 @@ Process finished with exit code 0
 
 整个apk大小挺恐怖的，我们之前只写了几行代码几个类居然有16.5MB的大小。
 
-![https://github.com/HuRuWo/ReFlutterNote/blob/main/pic/01.png]()
+![](pic/01.png)
 
+原因是在lib里面用了三套架构，我们只保留一套即可
+
+```
+defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.fluttertest"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+
+        ndk {
+            abiFilters "armeabi-v7a" //架构保留
+        }
+
+    }
+```
+
+```
+F:\flutter\bin\flutter.bat --no-color build apk
+
+ Building with sound null safety 
+
+Running Gradle task 'assembleRelease'...                            5.4s
+√  Built build\app\outputs\flutter-apk\app-release.apk (5.4MB).
+Process finished with exit code 0
+```
+
+这下我们的apk只有5.4M
+
+![](pic/02.png)
+
+关于flutter的部分在
+
+lib asset 两个文件夹里面，asset存放的就是相关的资源文件而lib
 
 
 #### 2.flutter 虚拟机架构

@@ -88,7 +88,7 @@ lib asset 两个文件夹里面，asset存放的就是相关的资源文件而li
 - libapp.so     flutter程序代码对应的dart vm AOT 快照文件
 
 
-#### 2.flutter 虚拟机架构
+### 2.flutter 虚拟机架构
 
 
 

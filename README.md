@@ -11,7 +11,30 @@
 
 >年底业务繁忙，工程笔记慢速施工当中。
 
-#### [0.flutter 的基本开发](https://github.com/HuRuWo/ReFlutterNote/blob/main/note/000.md)
+#### 0.flutter 的基本开发
+
+## flutter基本开发流程
+
+### 前言
+
+在进入逆向之前，我们先做一点正向的开发。方便我们理解和思考后续的进入。
+
+这里我们进行简单的crackme程序开发。
+
+### 环境搭建
+
+[flutter逆向从自信入门到精通跑路系列1-flutter编程环境搭建](https://www.huruwo.top/flutter%e9%80%86%e5%90%91%e4%bb%8e%e8%87%aa%e4%bf%a1%e5%85%a5%e9%97%a8%e5%88%b0%e7%b2%be%e9%80%9a%e8%b7%91%e8%b7%af%e7%b3%bb%e5%88%971-flutter%e7%bc%96%e7%a8%8b%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba/)
+
+### 新建项目和编写crackme
+
+
+[flutterdart逆向从自信入门到精通跑路系列2-编写crackme](https://www.huruwo.top/flutterdart%e9%80%86%e5%90%91%e4%bb%8e%e8%87%aa%e4%bf%a1%e5%85%a5%e9%97%a8%e5%88%b0%e7%b2%be%e9%80%9a%e8%b7%91%e8%b7%af%e7%b3%bb%e5%88%972-%e7%bc%96%e5%86%99crackme/)
+
+
+### 总结
+
+进入基本的开发之后 进入后续的逆向过程
+
 
 #### 1.flutter apk结构
 

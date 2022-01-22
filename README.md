@@ -18,7 +18,7 @@
 
 这里我们进行简单的crackme程序开发。
 
-#### 环境搭建
+#### 环境搭建f
 
 [flutter逆向从自信入门到精通跑路系列1-flutter编程环境搭建](https://www.huruwo.top/flutter%e9%80%86%e5%90%91%e4%bb%8e%e8%87%aa%e4%bf%a1%e5%85%a5%e9%97%a8%e5%88%b0%e7%b2%be%e9%80%9a%e8%b7%91%e8%b7%af%e7%b3%bb%e5%88%971-flutter%e7%bc%96%e7%a8%8b%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba/)
 
@@ -88,15 +88,31 @@ lib asset 两个文件夹里面，asset存放的就是相关的资源文件而li
 - libapp.so     flutter程序代码对应的dart vm AOT 快照文件
 
 
-### 2.flutter 虚拟机架构
+### 2.dart 虚拟机架构
+
+接下我们要进入有些难度的虚拟机架构相关内容，这一部分有些难度。
+
+而且flutter版本在快速迭代中。所以我不能保证现在版本的虚拟机依然是这样子的。
+
+好在有几篇非常重要的研究文章在网络上可以找到,我列举出来作为参考。
+
+flutter的so中包含着一个dart语言的虚拟机，因为flutter本身还要和安卓系统交互进行ui相关的绘制。所以flutter lib 中包含的内容是要大于dart虚拟机的。
+
+为了了解dart语言的运行，了解dart虚拟机的构成也是非常必要的。
 
 
 
 
 
-### 3.flutter AOT 快照文件格式
+
+
+
+### 3.dart AOT 快照文件格式
 
 ### 4.flutter 数据包抓取方式
+
+>这里补充一个关于flutter应用的抓白方案。鉴于flutter不会通过代理方式进行通信，通常使用的
+
 
 ### 5.flutter SDK 引擎编译
 

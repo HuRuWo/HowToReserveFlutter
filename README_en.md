@@ -26,10 +26,10 @@ Article directory
 - DART virtual machine ARM parsing 1
 - DART virtual machine ARM combination analysis 2
 - DART virtual machine ARM parsing 3
--Algorithm restoration and call 1-xposed
--Algorithm reduction and call 2-frida
--Algorithm reduction and calling 3-ida python
--Algorithm restoration and calling 4-unicorn
+- Algorithm restoration and call 1-xposed
+- Algorithm reduction and call 2-frida
+- Algorithm reduction and calling 3-ida python
+- Algorithm restoration and calling 4-unicorn
 - Summarize
 
 
